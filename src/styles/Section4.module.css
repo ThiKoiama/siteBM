@@ -1,0 +1,60 @@
+.section4{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    flex-direction: column;
+    padding-bottom: 300px;
+    padding-top: 100px;
+}
+
+
+.contato{
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 80vh;
+    background-color: #e71d1d;
+    width: 90vw;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    align-items: center;
+    justify-content: flex-start;
+    row-gap: 100px;
+    padding-top: 100px;
+    width: 50%;
+}
+.div2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 100px;
+    width: 50%;
+    flex-direction: column;
+}
+.div1 h2{
+    font-size: 2rem;
+}
+.div1 p{
+    font-size: 1.1rem;
+}
+
+.div2 label{
+    color: #fff;
+
+}
+.div2 input{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    height: 40px;
+}
+
+.map {
+
+    width: 90vw;
+    height: 35vh;
+    filter: invert(80%);
+  }

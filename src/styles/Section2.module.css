@@ -1,0 +1,80 @@
+.section2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+.section2 h2 {
+  color: red;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.content {
+  display: flex;
+  padding-top: 35px;
+
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 30vw;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.icon {
+  width: 60px;
+  height: 60px;
+  stroke-width: 0;
+  fill-opacity: 1;
+  stroke: rgb(153, 153, 153);
+  stroke-opacity: 1;
+  fill: rgb(231, 29, 29);
+}
+
+.card h3 {
+  color: red;
+  font-weight: 400;
+}
+
+.card p {
+  color: #4c5754;
+}
+
+.card button {
+  background-color: transparent;
+  display: flex;
+  text-decoration: none;
+  color: red;
+  width: 90px;
+  height: 50px;
+  border: 1px solid red;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: red;
+  color: #fff;
+}
+.card a {
+  text-decoration: none;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .card h3 {
+    font-size: 1rem;
+  }
+  .card p {
+    font-size: 0.8rem;
+  }
+}

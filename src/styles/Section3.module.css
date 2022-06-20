@@ -1,0 +1,24 @@
+.horario {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e71d1d;
+  background-color: #f0f0f0;
+  height: 60vh;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.horario svg {
+  margin-bottom: 40px;
+  height: 70px;
+  width: 70px;
+}
+
+.horario h3{
+    font-weight: 450;
+}
+.horario p{
+    color: #4c5754;
+}
