@@ -12,7 +12,7 @@
     display: flex;
     padding-left: 50px;
     padding-right: 50px;
-    height: 80vh;
+   padding-bottom: 100px;
     background-color: #e71d1d;
     width: 90vw;
 }
@@ -50,6 +50,41 @@
     background: transparent;
     border: 1px solid #fff;
     height: 40px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 2px;
+    color: #fff;
+}
+
+.div2 textarea{
+    width: 100%;
+    background: transparent;
+    border: 1px solid #fff;
+    height: 100px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 2px;
+    color: #fff;
+}
+
+.div2 input:focus, .div2 textarea:focus{
+    outline: none !important;
+
+}
+
+.enviar{
+    cursor: pointer;
+    color:#fff;
+    transition: background-color 0.5s;
+}
+
+.enviar:hover{
+    background-color: white;
+    color:#e71d1d
+}
+
+.div2 input::placeholder, .div2 textarea::placeholder{
+    color: #fff;
 }
 
 .map {
@@ -58,3 +93,11 @@
     height: 35vh;
     filter: invert(80%);
   }
+
+  @media (min-width: 320px) and (max-width: 800px) {
+    .contato{
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  

@@ -1,24 +1,29 @@
 import Head from 'next/head'
+import Header from "../components/Header"
+import Section1 from "../components/Section1"
+import Zap from '../components/Zap'
+import Footer from '../components/Footer'
+import Section2 from '../components/Section2'
+import Section3 from '../components/Section3'
+import Section4 from '../components/Section4'
 
-import styles from '../styles/Temp.module.css'
 
-export default function Temp() {
+export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>BM Bike</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="description" content="BM Bike" />
         <link rel="icon" href="/images/icon.ico" />
       </Head>
-
-      <main className={styles.main}>
-      <img src={"/images/logo.png"} width="300x" height="300px" />
-
-
-      <h1 style={{color:"#28245c", textAlign:"center"}}>EM BREVE!</h1>
-      
-      </main>
+      <Header />
+      <Section1 />
+      <Section2 />
+      <Section3 />
+      <Section4 />
+      <Footer />
+      <Zap />
     </div>
   )
 }
