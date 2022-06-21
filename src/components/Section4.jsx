@@ -12,7 +12,7 @@ export default function Section4() {
   const [mensagem, setMensagem] = useState("")
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch("/api/contato2", {
+    const res = await fetch("/api/contact", {
       body: JSON.stringify({
         nome,
         endereco,
