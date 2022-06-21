@@ -1,103 +1,120 @@
-.section4{
-    display: flex;
-    justify-content: center;
-   align-items: center;
-    flex-direction: column;
-    padding-bottom: 300px;
-    padding-top: 100px;
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 300px;
+  padding-top: 100px;
 }
 
-
-.contato{
-    display: flex;
-    padding-left: 50px;
-    padding-right: 50px;
-   padding-bottom: 100px;
-    background-color: #e71d1d;
-    width: 90vw;
+.contato {
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  background-color: #e71d1d;
+  width: 90vw;
 }
-.div1{
-    display: flex;
-    flex-direction: column;
-    color: #fff;
-    align-items: center;
-    justify-content: flex-start;
-    row-gap: 100px;
-    padding-top: 100px;
-    width: 50%;
+.div1 {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  justify-content: flex-start;
+  row-gap: 100px;
+  padding-top: 100px;
+  width: 50%;
 }
-.div2{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    padding-top: 100px;
-    width: 50%;
-    flex-direction: column;
+.div2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 100px;
+  width: 50%;
+  flex-direction: column;
 }
-.div1 h2{
-    font-size: 2rem;
+.div1 h2 {
+  font-size: 2rem;
 }
-.div1 p{
-    font-size: 1.1rem;
-}
-
-.div2 label{
-    color: #fff;
-
-}
-.div2 input{
-    width: 100%;
-    background: transparent;
-    border: 1px solid #fff;
-    height: 40px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    padding: 2px;
-    color: #fff;
+.div1 p {
+  font-size: 1.1rem;
 }
 
-.div2 textarea{
-    width: 100%;
-    background: transparent;
-    border: 1px solid #fff;
-    height: 100px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    padding: 2px;
-    color: #fff;
+.div2 label {
+  color: #fff;
 }
 
-.div2 input:focus, .div2 textarea:focus{
-    outline: none !important;
-
+.div2 form {
+  width: 55%;
+}
+.div2 input {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #fff;
+  height: 40px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 4px;
+  color: #fff;
 }
 
-.enviar{
-    cursor: pointer;
-    color:#fff;
-    transition: background-color 0.5s;
+.div2 textarea {
+  width: 100%;
+  background: transparent;
+  border: 1px solid #fff;
+  height: 100px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  padding: 4px;
+  color: #fff;
 }
 
-.enviar:hover{
-    background-color: white;
-    color:#e71d1d
+.div2 input:focus,
+.div2 textarea:focus {
+  outline: none !important;
 }
 
-.div2 input::placeholder, .div2 textarea::placeholder{
-    color: #fff;
+.enviar {
+  cursor: pointer;
+  color: #fff;
+  transition: background-color 0.5s;
+}
+
+.enviar:hover {
+  background-color: white;
+  color: #e71d1d;
+}
+
+.div2 input::placeholder,
+.div2 textarea::placeholder {
+  color: #fff;
 }
 
 .map {
+  width: 90vw;
+  height: 45vh;
+  filter: invert(80%);
+}
 
-    width: 90vw;
-    height: 45vh;
-    filter: invert(80%);
+@media (min-width: 320px) and (max-width: 800px) {
+  .contato {
+    flex-direction: column;
+    align-items: center;
   }
 
-  @media (min-width: 320px) and (max-width: 800px) {
-    .contato{
-        flex-direction: column;
-        align-items: center;
-    }
+  .div1 h2 {
+    font-size: 1.5rem;
   }
-  
+
+  .div1 p {
+    text-align: center;
+  }
+  .div1,
+  .div2 {
+    width: 100%;
+  }
+
+  .div2 form {
+    width: 90%;
+  }
+}

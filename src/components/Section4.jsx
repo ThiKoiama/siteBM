@@ -57,10 +57,10 @@ export default function Section4() {
               placeholder="Insira seu nome"
               required
             />
-            <br />
+           
 
             <label htmlFor="endereco">Endereço: </label>
-            <br />
+           
             <input
               type="text"
               onChange={(e) => setEndereco(e.target.value)}
@@ -69,10 +69,11 @@ export default function Section4() {
               required
               placeholder="Insira seu endereço"
             />
-            <br />
-
+           
+            
+         
             <label htmlFor="email">Email: </label>
-            <br />
+           
             <input
               type="email"
               onChange={(e) => setEmail(e.target.value)}
@@ -81,7 +82,8 @@ export default function Section4() {
               required
               placeholder="Insira seu email"
             />
-
+     
+            
             <label htmlFor="telefone"> Telefone: </label>
         
             <input
@@ -92,10 +94,10 @@ export default function Section4() {
               required
               placeholder="Insira seu telefone"
             />
-            <br />
-
+  
+  
             <label htmlFor="assunto">Assunto: </label>
-            <br />
+           
             <input
               type="text"
               onChange={(e) => setAssunto(e.target.value)}
@@ -104,9 +106,9 @@ export default function Section4() {
               required
               placeholder="Insira o assunto"
             />
-            <br />
+           
             <label htmlFor="mensagem">Mensagem: </label>
-            <br />
+           
             <textarea
               onChange={(e) => setMensagem(e.target.value)}
               className={styles.mensagem}
