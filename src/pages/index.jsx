@@ -6,11 +6,12 @@ import Footer from '../components/Footer'
 import Section2 from '../components/Section2'
 import Section3 from '../components/Section3'
 import Section4 from '../components/Section4'
+import styles from '../styles/Index.module.css'
 
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.index}>
       <Head>
         <title>BM Bike</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
