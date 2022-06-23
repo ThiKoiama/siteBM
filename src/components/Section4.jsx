@@ -126,7 +126,7 @@ export default function Section4() {
       </div>
       <iframe
         className={styles.map}
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3668.3400948361577!2d-47.03140569739221!3d-23.157784301064694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf30e55941ebb5%3A0xf628d6266164d980!2sR.%20Elizabete%20Koler%2C%20303%20-%20Portal%20de%20Santa%20Fe%2C%20Itupeva%20-%20SP%2C%2013295-000!5e0!3m2!1spt-BR!2sbr!4v1649852864370!5m2!1spt-BR!2sbr"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d324.23875736106885!2d-47.029953893117295!3d-23.15768607176155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf312623f87613%3A0x8597fe0e33aa67de!2sBM%20BIKE%20IMPORTADORA%20E%20DISTRIBUIDORA%20LTDA!5e0!3m2!1spt-BR!2sbr!4v1655988525560!5m2!1spt-BR!2sbr"
       ></iframe>
        <ToastContainer
         position="top-right"
