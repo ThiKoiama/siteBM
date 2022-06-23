@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <Link href={'https://www.bmbike.com.br'}>
+      <Link href={'/'}>
       <img src="/images/logo.png" alt="logo" height={"120px"} width={"120px"} style={{cursor: 'pointer'}} />
       </Link>
       <hr />

@@ -7,6 +7,7 @@ import Section2 from '../components/Section2'
 import Section3 from '../components/Section3'
 import Section4 from '../components/Section4'
 import styles from '../styles/Index.module.css'
+import BotaoTopo from '../components/BotaoTopo'
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <Section3 />
       <Section4 />
       <Footer />
+      <BotaoTopo />
       <Zap />
     </div>
   )
