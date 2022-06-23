@@ -126,7 +126,7 @@ export default function Section4() {
       </div>
       <iframe
         className={styles.map}
-        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d324.23875736106885!2d-47.029953893117295!3d-23.15768607176155!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf312623f87613%3A0x8597fe0e33aa67de!2sBM%20BIKE%20IMPORTADORA%20E%20DISTRIBUIDORA%20LTDA!5e0!3m2!1spt-BR!2sbr!4v1655988525560!5m2!1spt-BR!2sbr"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2181.184986791324!2d-47.02985705964844!3d-23.159201890510573!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf312623f87613%3A0x8597fe0e33aa67de!2sBM%20BIKE%20IMPORTADORA%20E%20DISTRIBUIDORA%20LTDA!5e0!3m2!1spt-BR!2sbr!4v1655989817517!5m2!1spt-BR!2sbr" 
       ></iframe>
        <ToastContainer
         position="top-right"
