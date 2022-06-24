@@ -1,39 +1,38 @@
 .footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #f0f0f0;
-    height: 10vw;
-    align-items: center;
-    justify-content: center;
-    color: #000;
-    row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  height: 10vw;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  row-gap: 10px;
+}
+
+.icons {
+  display: inline;
+}
+
+.instaIcon:hover {
+  width: 32px;
+  height: 32px;
+}
+.faceIcon:hover {
+  width: 32px;
+  height: 32px;
+}
+
+.faceIcon {
+  margin-left: 10px;
+}
+
+.logo {
+  position: relative;
+  bottom: -10px;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .footer {
+    height: 15vh;
   }
-  
-  .icons {
-    display: inline;
-  }
-  
-  .instaIcon:hover {
-    width: 32px;
-    height: 32px;
-  }
-  .faceIcon:hover {
-    width: 32px;
-    height: 32px;
-  }
-  
-  .faceIcon {
-    margin-left: 10px;
-  }
-  
-  .logo{
-    position: relative;
-    bottom: -10px;
-  }
-  
-  @media (min-width: 320px) and (max-width: 800px) {
-    .footer {
-      height: 15vh;
-    }
-  }
-  
+}

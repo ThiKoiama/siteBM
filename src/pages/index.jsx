@@ -1,14 +1,13 @@
-import Head from 'next/head'
-import Header from "../components/Header"
-import Section1 from "../components/Section1"
-import Zap from '../components/Zap'
-import Footer from '../components/Footer'
-import Section2 from '../components/Section2'
-import Section3 from '../components/Section3'
-import Section4 from '../components/Section4'
-import styles from '../styles/Index.module.css'
-import BotaoTopo from '../components/BotaoTopo'
-
+import Head from "next/head";
+import Header from "../components/Header";
+import Section1 from "../components/Section1";
+import Zap from "../components/Zap";
+import Footer from "../components/Footer";
+import Section2 from "../components/Section2";
+import Section3 from "../components/Section3";
+import Section4 from "../components/Section4";
+import styles from "../styles/Index.module.css";
+import BotaoTopo from "../components/BotaoTopo";
 
 export default function Home() {
   return (
@@ -28,5 +27,5 @@ export default function Home() {
       <BotaoTopo />
       <Zap />
     </div>
-  )
+  );
 }
