@@ -18,3 +18,11 @@
   padding-left: 1px;
   padding-top: 10px;
 }
+
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .backToTop{
+    height: 32px;
+    width: 32px;
+  }
+}
