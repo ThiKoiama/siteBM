@@ -34,6 +34,12 @@ export default function Section4() {
       return;
     }
     toast.success("Enviado!");
+    e.target.nome.value="";
+    e.target.endereco.value="";
+    e.target.email.value="";
+    e.target.telefone.value="";
+    e.target.assunto.value="";
+    e.target.mensagem.value="";
     console.log(nome, endereco, email, telefone, assunto, mensagem);
   };
   return (
