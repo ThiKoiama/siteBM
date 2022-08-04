@@ -90,3 +90,21 @@
     background-repeat: no-repeat;
   }
 }
+
+@media (min-width: 801px) and (max-width: 1400px) {
+ 
+ .sobre{
+  row-gap: 20px;
+}
+
+.sobre h2 {
+  font-size: 1.5rem;
+}
+.sobre h3 {
+  font-size: 1rem;
+}
+.sobre p {
+ 
+  font-size: 1rem;
+}
+}
