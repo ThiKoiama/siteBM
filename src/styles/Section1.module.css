@@ -67,15 +67,20 @@
   }
 
   .sobre {
-    height: 275px;
+    height: 300px;
+    row-gap: 20px;
   }
 
   .sobre h2 {
     font-size: 1.5rem;
   }
+  .sobre h3 {
+    font-size: 0.8rem;
+  }
 
   .sobre p {
     width: 95vw;
+    font-size: 0.6rem;
   }
   .parallax2 {
     height: 200px;
