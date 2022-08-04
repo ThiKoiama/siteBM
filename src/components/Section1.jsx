@@ -10,14 +10,19 @@ export default function Section1() {
 
       <div id="sobre" className={styles.sobre}>
         <h2>Sobre</h2>
-        <p>
-          O(A) BM Bike foi fundado(a) em 2000 com uma missão: trazer um(a) Loja
-          de bicicletas de qualidade para a área de São Paulo. Nossa paixão por
-          excelência é o que nos inspira desde o começo e continua nos motivando
-          até hoje. Temos orgulho na experiência de compra que oferecemos e nos
-          relacionamentos de longo prazo que construímos com nossos clientes.
-          Venha nos visitar e veja por com seus próprios olhos!
-        </p>
+        <div className={styles.sobreTxt}>
+        <h3>Nossa missão:</h3>
+        <p>Unidos com o propósito de transformar pessoas e entregar qualidade e satisfação aos nossos clientes.</p>
+        </div>
+        <div className={styles.sobreTxt}>
+        <h3>Visão:</h3>
+        <p>Ser a empresa referência em inovações e soluções de problemas existentes no segmento de duas rodas.</p>
+        </div>
+        <div className={styles.sobreTxt}>
+        <h3>Nossos valores:</h3>
+        <p>Humildade/Honestidade/Atitude de dono/Melhoria Contínua/Empatia/Gratidão</p>
+        </div>
+        
       </div>
       <div className={styles.parallax2}></div>
     </div>
