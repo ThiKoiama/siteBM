@@ -125,7 +125,7 @@ export default function Section4() {
               placeholder="Digite sua mensagem aqui"
             ></textarea>
             <center>
-              <input className={styles.enviar} type="submit" />
+              <input className={styles.enviar} type="submit" value='Enviar' />
             </center>
           </form>
         </div>
